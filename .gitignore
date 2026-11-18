@@ -1,0 +1,21 @@
+# 依赖与运行产物
+node_modules/
+.models/
+.bili-lecture-cache/
+.venv/
+
+# 生成的文件
+*.docx
+*.pdf
+shots/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.pyc

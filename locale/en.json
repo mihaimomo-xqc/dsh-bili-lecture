@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Bilibili video handout",
+    "description": "Paste a Bilibili link to extract its subtitles or run local speech recognition, then generate a Chinese Word handout, summary, SOP or runbook that opens with what the video is, what it is for, and which problems it solves.",
+    "detail": "docs/DETAIL.md"
+  }
+}

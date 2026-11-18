@@ -1,0 +1,5 @@
+# Bilibili video -> Word handout (lecture notes / summary / SOP / runbook).
+- insert:
+    - id: bili-lecture
+      name: '@local/bili-lecture'
+      config: {}

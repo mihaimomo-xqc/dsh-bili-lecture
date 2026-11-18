@@ -1,0 +1,25 @@
+{
+  "name": "@local/bili-lecture",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Turn a Bilibili video link into a Chinese Word handout: lecture notes, summary, SOP or runbook, with a lead-in that explains what the video is, what it is for, and which problems it solves.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "scripts",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
